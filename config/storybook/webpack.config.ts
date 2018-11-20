@@ -7,6 +7,9 @@ const StorybookConfig = (base: { [T in keyof webpack.Configuration]-?: webpack.C
 	base.mode = "development"
 	base.module.rules.push(...BaseConfig.module!.rules)
 	base.resolve.extensions!.push(...BaseConfig.resolve!.extensions!)
+	base.resolve.alias = {
+		...BaseConfig.resolve!.alias
+	}
 	return base
 }
 
