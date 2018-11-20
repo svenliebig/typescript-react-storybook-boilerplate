@@ -23,7 +23,8 @@ const BaseConfig: webpack.Configuration = {
 	},
 
 	resolve: {
-		extensions: [".ts", ".tsx"]
+		extensions: [".ts", ".tsx"],
+		alias: {}
 	}
 }
 
