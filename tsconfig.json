@@ -8,7 +8,7 @@
 		"jsx": "react",
 		"moduleResolution": "node",
 		"rootDirs": ["src", "stories"],
-		"baseUrl": "src",
+		"baseUrl": ".",
 		"forceConsistentCasingInFileNames": true,
 		"noImplicitReturns": true,
 		"noImplicitThis": true,
@@ -16,6 +16,7 @@
 		"strictNullChecks": true,
 		"suppressImplicitAnyIndexErrors": true,
 		"noUnusedLocals": true,
+		"esModuleInterop": true,
 		"allowSyntheticDefaultImports": true,
 		"experimentalDecorators": true,
 		// if you want to build a lib, you need declarations to be true and allow js to be false
